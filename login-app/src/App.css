@@ -1,0 +1,124 @@
+.App{
+  width: 100%;
+  height: 100%;
+  padding: 0%;
+  margin: 0%;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 10vmin;
+  margin: 0%;
+
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 3%;
+  display: flex;
+  color: white;
+  padding-left: 3%;
+}
+.App-header h1{
+  margin-top: 2%;
+  font-family: 'Times New Roman', Times, serif;
+  
+}
+.App-body{
+  background: #43C6AC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #191654, #43C6AC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #191654, #43C6AC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  padding: 0%;
+  margin: 0%;
+  width: 100%;
+  height: 90%;
+  display: block;
+  position: absolute;
+  padding-left: 3%;
+  padding-right: 3%;
+  
+  
+}
+.App-body h3{
+  width: 40%;
+  height: 3%;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  
+  
+}
+.App-body h2{
+  width: 45%;
+  height: 3%;
+  color: white;
+  font-family: 'Times New Roman', Times, serif;
+  border-bottom: 1px solid white;
+  font-size: 25px;
+  text-align: center;
+  
+}
+.App-body p{
+  width: 80%;
+  height: 5%;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: justify;
+  font-size: 20px;
+   
+}
+.Parte1{
+  margin-left: 3%;
+  width: 50%;
+  margin-bottom: 3%;
+}
+.Parte2{
+  margin-left: 3%;
+  width: 50%;
+}
+.boton1{
+  margin-right: 2%;
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-top: 3%;
+}
+.boton2{
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 20px;
+  margin-top: 3%;
+}
+
+.contenedor1{
+  background: rgb(0,0,0,.6);
+  width: 88%;
+  margin-top: 3%;
+  padding: 2%; 
+  border: 1px solid darkblue;
+  border-radius: 20px;
+  margin-left: 4%;
+  float: left;
+  height: 78%;
+}
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
