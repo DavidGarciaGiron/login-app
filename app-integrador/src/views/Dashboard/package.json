@@ -1,0 +1,6 @@
+{
+  "name": "paginaPrincipal",
+  "version": "0.0.0",
+  "private": true,
+  "main": "./paginaPrincipal.js"
+}
